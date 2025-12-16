@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">KuliNesia</string>
+    <string name="nama_kuliner">Nama Kuliner</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string-array name="data_name">
+        <item>Rendang</item>
+        <item>Sate Maranggi</item>
+        <item>Pempek</item>
+        <item>Gudeg</item>
+        <item>gadogado</item>
+        <item>sate_madura</item>
+        <item>soto_betawi</item>
+        <item>sop_makasar</item>
+        <item>ayam_taliwang</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Rendang adalah masakan daging asli Indonesia yang berasal dari Minangkabau. Masakan ini dihasilkan dari proses memasak suhu rendah dalam waktu lama menggunakan aneka rempah-rempah dan santan.</item>
+        <item>Sate Maranggi adalah kuliner khas Purwakarta. Berbeda dengan sate lainnya, daging sate ini direndam dalam bumbu (marinasi) sebelum dibakar, sehingga tidak perlu disajikan dengan saus kacang tambahan.</item>
+        <item>Pempek adalah makanan khas Palembang yang terbuat dari daging ikan yang digiling lembut yang dicampur tepung kanji, serta telur, bawang putih, dan penyedap rasa. Disajikan dengan kuah cuko yang pedas asam manis.</item>
+        <item>Gudeg adalah makanan khas Yogyakarta dan Jawa Tengah yang terbuat dari nangka muda yang dimasak dengan santan. Perlu waktu berjam-jam untuk membuatnya. Warna coklat biasanya dihasilkan oleh daun jati.</item>
+        <item>Gado-gado adalah makanan khas Jakarta yang berupa sayur-sayuran yang direbus dan dicampur jadi satu, dengan bumbu kacang atau saus dari kacang tanah yang dihaluskan disertai irisan telur dan kerupuk.</item>
+        <item>Sate Madura adalah sate yang memiliki bumbu khas kacang yang manis dan gurih. Biasanya dibuat dari daging ayam atau kambing yang dipotong kecil-kecil dan ditusuk lidi, lalu dibakar dengan kecap manis.</item>
+        <item>Soto Betawi adalah jenis soto yang populer di daerah Jakarta. Kuahnya kental dan gurih karena menggunakan campuran santan dan susu. Isiannya biasanya berupa daging sapi, tomat, dan emping melinjo.</item>
+        <item>Coto Makassar adalah makanan tradisional Sulawesi Selatan. Makanan ini terbuat dari jeroan sapi yang direbus dalam waktu yang lama. Rebusan jeroan kemudian diiris-iris lalu dibumbui dengan bumbu kacang tanah khusus.</item>
+        <item>Ayam Taliwang adalah makanan khas Sumbawa Barat, Nusa Tenggara Barat. Bahan utamanya adalah ayam kampung muda yang dibakar dengan bumbu cabai merah kering, bawang merah, bawang putih, dan terasi goreng.</item>
+        <item>Bakso Malang adalah hidangan bakso yang lengkap denga</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/rendang</item>
+        <item>@drawable/sate_maranggi</item>
+        <item>@drawable/pempek</item>
+        <item>@drawable/gudeg</item>
+        <item>@drawable/gadogado</item>
+        <item>@drawable/sate_madura</item>
+        <item>@drawable/soto_betawi</item>
+        <item>@drawable/sop_makassar</item>
+        <item>@drawable/ayam_taliwang</item>
+        <item>@drawable/bakso_solo</item>
+
+    </integer-array>
+</resources>

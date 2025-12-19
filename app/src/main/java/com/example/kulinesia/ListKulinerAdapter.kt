@@ -8,13 +8,18 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class ListKulinerAdapter(private val listKuliner: ArrayList<Kuliner>): RecyclerView.Adapter<ListKulinerAdapter.ListViewHolder>() {
+    private lateinit var onItemClickCallback: OnItemClickCallback
+    fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
+        this.onItemClickCallback = onItemClickCallback
+    }
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
     ): ListViewHolder {
         val view: View = LayoutInflater.from(parent.context).inflate(R.layout.item_row_kuliner, parent, false)
         return ListViewHolder(view)
-    }
+
+    } 
 
     override fun onBindViewHolder(
         holder: ListViewHolder,
@@ -24,6 +29,11 @@ class ListKulinerAdapter(private val listKuliner: ArrayList<Kuliner>): RecyclerV
         holder.imgPhoto.setImageResource(photo)
         holder.tvName.text = name
         holder.tvDescription.text = description
+        holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(listKuliner[holder.adapterPosition]) }
+
+    }
+    interface OnItemClickCallback {
+        fun onItemClicked(data: Kuliner)
     }
 
     override fun getItemCount(): Int = listKuliner.size

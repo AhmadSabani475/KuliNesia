@@ -39,6 +39,8 @@ android {
 dependencies {
 
     implementation(libs.androidx.core.ktx)
+    implementation("de.hdodenhof:circleimageview:3.1.0")
+    implementation("com.github.bumptech.glide:glide:5.0.5")
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)

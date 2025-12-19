@@ -1,18 +1,63 @@
 <resources>
     <string name="app_name">KuliNesia</string>
-    <string name="nama_kuliner">Nama Kuliner</string>
-    <string name="deskripsi">Deskripsi</string>
+
+    <string name="label_deskripsi">Deskripsi</string>
+    <string name="label_cara_membuat">Cara Membuat</string>
+    <string name="label_tonton_youtube">Tonton Tutorial di YouTube</string>
+    <string name="text_dummy_nama">Nama Kuliner</string>
+
     <string-array name="data_name">
         <item>Rendang</item>
         <item>Sate Maranggi</item>
         <item>Pempek</item>
         <item>Gudeg</item>
-        <item>gadogado</item>
-        <item>sate_madura</item>
-        <item>soto_betawi</item>
-        <item>sop_makasar</item>
-        <item>ayam_taliwang</item>
+        <item>Gado-gado</item>
+        <item>Sate Madura</item>
+        <item>Soto Betawi</item>
+        <item>Coto Makassar</item>
+        <item>Ayam Taliwang</item>
+        <item>Bakso Malang</item>
     </string-array>
+
+    <string-array name="data_time">
+        <item>4 Jam</item>
+        <item>45 Menit</item>
+        <item>60 Menit</item>
+        <item>5 Jam</item>
+        <item>30 Menit</item>
+        <item>40 Menit</item>
+        <item>90 Menit</item>
+        <item>3 Jam</item>
+        <item>45 Menit</item>
+        <item>60 Menit</item>
+    </string-array>
+
+    <string-array name="data_servings">
+        <item>10 Porsi</item>
+        <item>4 Porsi</item>
+        <item>5 Porsi</item>
+        <item>6 Porsi</item>
+        <item>2 Porsi</item>
+        <item>3 Porsi</item>
+        <item>4 Porsi</item>
+        <item>5 Porsi</item>
+        <item>2 Ekor</item>
+        <item>5 Mangkok</item>
+    </string-array>
+
+    <string-array name="data_difficulty">
+        <item>Sulit</item>
+        <item>Sedang</item>
+        <item>Sulit</item>
+        <item>Sulit</item>
+        <item>Mudah</item>
+        <item>Sedang</item>
+        <item>Sedang</item>
+        <item>Sulit</item>
+        <item>Sedang</item>
+        <item>Sedang</item>
+    </string-array>
+
     <string-array name="data_description">
         <item>Rendang adalah masakan daging asli Indonesia yang berasal dari Minangkabau. Masakan ini dihasilkan dari proses memasak suhu rendah dalam waktu lama menggunakan aneka rempah-rempah dan santan.</item>
         <item>Sate Maranggi adalah kuliner khas Purwakarta. Berbeda dengan sate lainnya, daging sate ini direndam dalam bumbu (marinasi) sebelum dibakar, sehingga tidak perlu disajikan dengan saus kacang tambahan.</item>
@@ -23,8 +68,61 @@
         <item>Soto Betawi adalah jenis soto yang populer di daerah Jakarta. Kuahnya kental dan gurih karena menggunakan campuran santan dan susu. Isiannya biasanya berupa daging sapi, tomat, dan emping melinjo.</item>
         <item>Coto Makassar adalah makanan tradisional Sulawesi Selatan. Makanan ini terbuat dari jeroan sapi yang direbus dalam waktu yang lama. Rebusan jeroan kemudian diiris-iris lalu dibumbui dengan bumbu kacang tanah khusus.</item>
         <item>Ayam Taliwang adalah makanan khas Sumbawa Barat, Nusa Tenggara Barat. Bahan utamanya adalah ayam kampung muda yang dibakar dengan bumbu cabai merah kering, bawang merah, bawang putih, dan terasi goreng.</item>
-        <item>Bakso Malang adalah hidangan bakso yang lengkap denga</item>
+        <item>Bakso Malang adalah hidangan bakso yang lengkap dengan pangsit goreng, tahu, dan mie kuning yang disiram kuah kaldu sapi gurih dan hangat.</item>
     </string-array>
+
+    <string-array name="data_price">
+        <item>Rp 25.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 15.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 18.000</item>
+        <item>Rp 22.000</item>
+        <item>Rp 28.000</item>
+        <item>Rp 35.000</item>
+        <item>Rp 40.000</item>
+        <item>Rp 18.000</item>
+    </string-array>
+
+    <string-array name="data_origin">
+        <item>Sumatera Barat</item>
+        <item>Purwakarta, Jawa Barat</item>
+        <item>Palembang, Sumsel</item>
+        <item>Yogyakarta</item>
+        <item>DKI Jakarta</item>
+        <item>Madura, Jawa Timur</item>
+        <item>DKI Jakarta</item>
+        <item>Makassar, Sulsel</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Malang, Jawa Timur</item>
+    </string-array>
+
+    <string-array name="data_recipe">
+        <item>1. Potong daging sapi.\n2. Haluskan bumbu rempah.\n3. Masak santan hingga berminyak.\n4. Masukkan daging, masak dengan api kecil hingga kering dan berwarna gelap.</item>
+        <item>1. Potong dadu daging sapi/kambing.\n2. Rendam dengan bumbu marinasi (ketumbar, bawang, kecap) selama 1 jam.\n3. Tusuk daging.\n4. Bakar hingga matang. Sajikan dengan sambal tomat.</item>
+        <item>1. Haluskan ikan tenggiri.\n2. Campur dengan tepung sagu dan bumbu.\n3. Bentuk adonan (lenjer/kapal selam).\n4. Rebus hingga mengapung, lalu goreng.\n5. Buat kuah cuko dari gula merah dan cuka.</item>
+        <item>1. Rebus nangka muda dengan bumbu halus, gula merah, dan santan.\n2. Masukkan daun jati/daun jambu biji agar merah.\n3. Masak dengan api kecil selama 4-5 jam hingga kuah habis.</item>
+        <item>1. Rebus sayuran (kangkung, tauge, kacang panjang).\n2. Goreng tahu dan tempe.\n3. Haluskan kacang tanah goreng, cabai, dan gula merah.\n4. Campur semua bahan dengan bumbu kacang.</item>
+        <item>1. Potong ayam kecil-kecil, tusuk.\n2. Lumuri dengan bumbu kacang dan kecap.\n3. Bakar hingga matang.\n4. Sajikan dengan bumbu kacang yang sudah dimasak dengan daun jeruk.</item>
+        <item>1. Rebus daging sapi hingga empuk.\n2. Tumis bumbu halus (bawang, kemiri, jahe).\n3. Masukkan bumbu ke rebusan daging.\n4. Tambahkan santan dan susu cair. Aduk rata.</item>
+        <item>1. Rebus jeroan dan daging sapi.\n2. Tumis bumbu kacang tanah halus dan rempah.\n3. Masukkan ke kuah kaldu.\n4. Sajikan dengan ketupat dan bawang goreng.</item>
+        <item>1. Belah dada ayam kampung, jangan putus.\n2. Lumuri garam dan jeruk nipis, bakar setengah matang.\n3. Tumis bumbu pedas, oleskan ke ayam.\n4. Bakar lagi hingga matang meresap.</item>
+        <item>1. Giling daging sapi dengan es batu dan tepung.\n2. Bentuk bulat, rebus.\n3. Buat pangsit goreng isi adonan bakso.\n4. Sajikan dengan kuah kaldu sapi bening.</item>
+    </string-array>
+
+    <string-array name="data_url">
+        <item>https://www.youtube.com/results?search_query=resep+rendang+asli+padang</item>
+        <item>https://www.youtube.com/results?search_query=resep+sate+maranggi+purwakarta</item>
+        <item>https://www.youtube.com/results?search_query=resep+pempek+palembang</item>
+        <item>https://www.youtube.com/results?search_query=resep+gudeg+jogja+komplit</item>
+        <item>https://www.youtube.com/results?search_query=resep+gado+gado+enak</item>
+        <item>https://www.youtube.com/results?search_query=resep+sate+madura+asli</item>
+        <item>https://www.youtube.com/results?search_query=resep+soto+betawi+susu</item>
+        <item>https://www.youtube.com/results?search_query=resep+coto+makassar+asli</item>
+        <item>https://www.youtube.com/results?search_query=resep+ayam+taliwang+bakar</item>
+        <item>https://www.youtube.com/results?search_query=resep+bakso+malang+komplit</item>
+    </string-array>
+
     <integer-array name="data_photo">
         <item>@drawable/rendang</item>
         <item>@drawable/sate_maranggi</item>
@@ -36,6 +134,19 @@
         <item>@drawable/sop_makassar</item>
         <item>@drawable/ayam_taliwang</item>
         <item>@drawable/bakso_solo</item>
-
     </integer-array>
+    <string name="label_bahan">Bahan-bahan</string>
+
+    <string-array name="data_ingredients">
+        <item>- 1 kg daging sapi\n- 1 liter santan kental\n- 3 lembar daun kunyit\n- 4 lembar daun jeruk\n- 2 batang serai\n- Bumbu halus (bawang, cabai, jahe, lengkuas)</item>
+        <item>- 500 gr daging sapi (potong dadu)\n- 2 sdm ketumbar sangrai\n- 5 siung bawang putih\n- 5 siung bawang merah\n- Kecap manis\n- Air asam jawa</item>
+        <item>- 500 gr ikan tenggiri giling\n- 350 gr tepung sagu tani\n- 250 ml air es\n- 1 sdm garam\n- Penyedap rasa\n- Telur (untuk isian)</item>
+        <item>- 1 kg nangka muda\n- 500 ml santan kental\n- 5 lembar daun jati (untuk warna)\n- 3 cm lengkuas\n- 200 gr gula merah\n- Bumbu halus (bawang, kemiri, ketumbar)</item>
+        <item>- Kacang panjang, tauge, kol, kangkung\n- Tahu  Tempe goreng\n- Telur rebus\n- Bumbu kacang (kacang tanah, gula merah, cabai, terasi)</item>
+        <item>- 500 gr daging ayam fillet\n- Tusuk sate\n- Kecap manis\n- Jeruk nipis\n- Bumbu kacang halus\n- Bawang merah goreng</item>
+        <item>- 500 gr daging sapi\n- 250 ml susu cair\n- 200 ml santan\n- Kayu manis, cengkeh, serai\n- Tomat  Emping\n- Minyak samin</item>
+        <item>- 500 gr daging sapi  jeroan\n- 2 liter air cucian beras\n- 250 gr kacang tanah goreng (haluskan)\n- Bumbu halus (bawang, serai, jahe, lengkuas)</item>
+        <item>- 1 ekor ayam kampung muda\n- Jeruk nipis\n- Garam\n- Bumbu bakar (cabai merah, bawang, terasi bakar, gula merah)</item>
+        <item>- 500 gr daging sapi giling\n- 100 gr tepung sagu\n- Es batu\n- Kulit pangsit\n- Tahu putih\n- Mie kuning  Bihun</item>
+    </string-array>
 </resources>

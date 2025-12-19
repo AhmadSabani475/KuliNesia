@@ -1,7 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.KuliNesia" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Theme.KuliNesia" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/primary_green_night</item>
+        <item name="colorOnPrimary">#000000</item>
+
+        <item name="colorSecondary">@color/secondary_brown_night</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+
+        <item name="android:textColorPrimary">@color/text_primary_night</item>
+
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
 </resources>

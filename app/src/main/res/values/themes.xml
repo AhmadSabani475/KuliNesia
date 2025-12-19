@@ -1,9 +1,29 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.KuliNesia" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.KuliNesia" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorSecondary">@color/secondary_brown</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <item name="android:colorBackground">@color/background_bone</item>
+        <item name="colorSurface">@color/surface_white</item>
+
+        <item name="android:textColorPrimary">@color/text_primary</item>
+
+        <item name="android:statusBarColor">@color/primary_green</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="actionBarStyle">@style/TealActionBar</item>
+        <item name="colorControlNormal">#FFFFFF</item>
     </style>
 
-    <style name="Theme.KuliNesia" parent="Base.Theme.KuliNesia" />
+    <style name="TealActionBar" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/primary_green</item>
+        <item name="titleTextStyle">@style/WhiteTitleText</item>
+    </style>
+
+    <style name="WhiteTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
 </resources>
